@@ -258,13 +258,13 @@ class ConcatenateFields:
 ################
 
 NODE_CLASS_MAPPINGS = {
-    "ShowText|pysssss": ShowText,
+    "ShowText|PseudoPort": ShowText,
     "Load Nai Styles Complex CSV": NaiStylerComplexCSVLoader,
     "Universal_Styler_Node": NaiStyler,
     "concat": ConcatenateFields,
 }
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "ShowText|pysssss": "✴️ U-NAI Get Text",
+    "ShowText|PseudoPort": "✴️ U-NAI Get Text",
     "Load Nai Styles Complex CSV": "✴️ U-NAI Styles Launcher",
     "Universal_Styler_Node": "✴️ U-NAI Styler - v0.2.1",
     "concat": "✴️ U-NAI Fields Concatenate",
